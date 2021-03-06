@@ -3,18 +3,18 @@
 '''
 EXAMPLE OUTPUT:
 
-Searching for 42.
-Binary search found 42.
-Binary search took 6 steps.
+Searching for 3262021.
+Binary search found 3262021.
+Binary search took 22 steps.
 Binary search finished in 0.0s.
-Normal search found 42.
-Normal search took 42 steps.
-Normal search finished in 0.0s.
+Normal search found 3262021.
+Normal search took 3262021 steps.
+Normal search finished in 0.21986651420593262s.
 '''
 
 import time, random, sys
 
-LIST_MAX_LENGTH = 100
+LIST_MAX_LENGTH = int(1e7)
 LIST_MIN_VALUE = 0
 LIST_VALUE_TO_SEARCH_FOR = random.randint(LIST_MIN_VALUE, LIST_MAX_LENGTH)
 LIST_OF_NUMBERS = range(LIST_MIN_VALUE, LIST_MIN_VALUE + LIST_MAX_LENGTH)
